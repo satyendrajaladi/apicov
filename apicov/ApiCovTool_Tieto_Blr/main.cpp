@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    ApiCovTool w;
-    w.show();
+    ApiCovTool widget;
+    widget.show();
     return a.exec();
 }
